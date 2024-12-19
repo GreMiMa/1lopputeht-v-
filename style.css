@@ -4,6 +4,7 @@ body {
     background-color: #85947e8e;
     margin: 0;
     margin-top: 20px;
+    overflow-x: hidden;
 }
 
 /* taustan väri */
@@ -59,6 +60,7 @@ body {
 #minusta img {
     width: 100%;
     max-width: 500px;
+    margin: 0 auto;
     padding-left: 50px;
 }
 
