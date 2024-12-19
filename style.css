@@ -1,0 +1,99 @@
+/* Yleiset tyylit */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #85947e8e;
+    margin: 0;
+    margin-top: 20px;
+}
+
+/* taustan väri */
+.navbar-custom {
+    background-color: rgb(144, 158, 144);
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(0, 0, 0);
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.nav-item .dropdown-menu a:hover {
+    color: white !important;
+    background: rgba(107, 137, 103, 0.543) !important;
+    cursor: pointer;
+}
+
+.nav-link.active {
+    color: rgb(255, 255, 255) !important;
+}
+
+#quot {
+    padding-top: 40px;
+}
+
+#quote {
+    font-size: 35px;
+    font-style: italic;
+}
+
+#author {
+    font-style: italic;
+}
+
+#minusta {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#minusta img {
+    width: 100%;
+    max-width: 500px;
+    padding-left: 50px;
+}
+
+.about {
+    text-align: left;
+}
+
+#palvelut {
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.carousel-inner {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.carousel-inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    /* Varmistaa, että kuva skaalautuu tarvittaessa */
+    height: auto;
+}
+
+#yhteystiedot {
+    padding-top: 70px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(144, 158, 144);
+    color: rgba(0, 0, 0, 0.53);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valmennusta</title>
+    <!-- Linkitetään ulkoinen CSS-tiedosto -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Bootstrap 5.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex flex-column vh-100">
+
+    <!-- Navigointi -->
+    <nav class="navbar navbar-expand-sm navbar-custom fixed-top" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">L&C</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#minusta">Minusta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#palvelut">Palvelut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#yhteystiedot">Yhteydenotto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- päivän lainaus -->
+    <div id="quot" class="container text-center my-5">
+        <h4>Päivän Motivaatiolainaus</h4>
+        <p id="quote" class="mt-3"></p>
+        <p id="author"></p>
+        <script src="script.js"></script>
+    </div>
+
+    <div id="minusta">
+        <div class="row">
+            <div class="col-sm-4"><img src="pt.jpg" alt="personal trainer"></div>
+            <div id="about" class="col-sm-8">
+                <h1>Hei olen Lauren Carlson!</h1>
+                <p>
+                    Olipa tavoitteesi sitten parempi kunto, terveellisempi elämäntapa <br>
+                    tai mielen ja kehon tasapaino, se on minulle tärkeää. Olen Lauren Carlson,<br>
+                    sertifioitu personal trainer, ja haluan auttaa sinua matkalle kohti <br>
+                    <strong>unelmiesi hyvinvointia.</strong>
+                    <br>
+                    Vuosien kokemuksella valmennuksesta tiedän, että jokainen on yksilö, <br>
+                    ja siksi lähestyn valmennusta kokonaisvaltaisesti. Yhdessä rakennamme <br>
+                    sinulle sopivan treeni- ja ravintosuunnitelman, joka huomioi elämäntilanteesi, <br>
+                    tarpeesi ja tavoitteesi. Olitpa aloittelija tai kokeneempi treenaaja, <br>
+                    tarjoan sinulle tukea, motivaatiota ja konkreettisia tuloksia.<br>
+                    <br>
+                    <strong>Tervetuloa mukaan!</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Palvelut-osio -->
+    <div id="palvelut" class="my-5">
+        <h3>Palvelut</h3>
+        <p>Tarjoan monenlaisia valmennuspalveluja, jotka auttavat sinua saavuttamaan henkilökohtaiset tavoitteesi. Tässä
+            on muutamia palveluja, joita tarjoan:</p>
+
+        <ul>
+            <li><strong>Yksilöllinen valmennus:</strong> Räätälöidyt treeniohjelmat ja henkilökohtainen valmennus eri
+                tasoille.</li>
+            <li><strong>Ryhmävalmennus:</strong> Hauskat ja energiset ryhmätreenit, jotka auttavat sinua saavuttamaan
+                tavoitteesi yhdessä muiden kanssa.</li>
+            <li><strong>Ravintoneuvonta:</strong> Tuki ja suunnitelmat terveellisiin ruokailutottumuksiin ja parempaan
+                ravitsemukseen.</li>
+            <li><strong>Kuntotestit ja arvioinnit:</strong> Testit, jotka auttavat seuraamaan edistymistäsi ja
+                mukauttamaan ohjelmaasi tarpeen mukaan.</li>
+            <li><strong>Etävalmennus:</strong> Verkkovalmennus ja -konsultaatiot, jotka mahdollistavat harjoittelun
+                mistä päin maailmaa tahansa.</li>
+            <li><strong>Motivointivalmennus:</strong> Autan sinua löytämään motivaation ja asettamaan saavutettavia
+                tavoitteita, jotta pysyt motivoituneena pitkällä aikavälillä.</li>
+        </ul>
+    </div>
+
+    <!-- kuvakaruselli -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- ohjauspainikkeet karusellin alareunassa -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="sali2.jpg" alt="gym picture" class="d-block mx-auto" style="width:70%">
+            </div>
+            <div class="carousel-item">
+                <img src="sali4.jpg" alt="gym picture" class="d-block mx-auto" style="width:70%">
+            </div>
+            <div class="carousel-item">
+                <img src="sali3.jpg" alt="gym picture" class="d-block mx-auto" style="width:70%">
+            </div>
+            <div class="carousel-item">
+                <img src="sali1.jpg" alt="gym picture" class="d-block mx-auto" style="width:70%">
+            </div>
+            <div class="carousel-item">
+                <img src="sali5.jpg" alt="gym picture" class="d-block mx-auto" style="width:70%">
+            </div>
+            <div class="carousel-item">
+                <img src="sali6.jpg" alt="gym picture" class="d-block mx-auto" style="width:70%">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+    <div id="yhteystiedot">
+        <!-- Lomake -->
+        <div id="yhteydenotto">
+            <div>
+                <h3>Ota yhteyttä</h3>
+            </div>
+            <div>
+                <p>
+                    Täytä yhteydenottolomake, jotta voin kartoittaa valmennuksen tarpeestasi. <br>
+                    Olen yhteydessä tuota pikaa!
+                </p>
+            </div>
+            <form id="lomake">
+                <div>
+                    <label for="nimi">Nimi:</label>
+                    <input type="text" id="nimi" placeholder="Nimesi" required>
+                    <br>
+                    <label for="puhnro">Puhelinnumero:</label>
+                    <input type="tel" id="puhnro" placeholder="Puhelinnumerosi" required>
+                    <br>
+                    <label for="sposti">Sähköposti:</label>
+                    <input type="email" id="sposti" placeholder="Sähköpostisi" required>
+                    <br><br>
+                    <label for="palaute">Millaisia palveluja toivoisit</label>
+                    <br>
+                    <textarea id="palaute" rows="5" cols="50"></textarea>
+                    <br><br>
+                </div>
+
+                <div class="button-container">
+                    <!-- Lähetä-nappi -->
+                    <input type="button" value="Lähetä" onclick="lomakeLähetetty()">
+                    <!-- Tyhjennä-nappi -->
+                    <input type="reset" value="Tyhjennä">
+                </div>
+            </form>
+        </div>
+        <script src="script1.js"></script>
+        <br>
+        <!-- Yhteystiedot-osio -->
+        <div id="valyhteystiedot" class="my-5">
+            <h3>Valmentajan yhteystiedot</h3>
+            <p>
+                <strong>Nimi:</strong> Lauren Carlson <br>
+                <strong>Sähköposti:</strong> lauren.carlson@email.com <br>
+                <strong>Puhelin:</strong> +358 123 456 789 <br>
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Kaikki oikeudet pidätetään</p>
+    </footer>
+
+    <!-- Bootstrap 5.2 JS ja riippuvuudet -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
